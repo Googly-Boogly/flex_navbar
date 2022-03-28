@@ -1,0 +1,42 @@
+.nav {
+    display: flex;
+    background-color: gray;
+    border: 1px solid black;
+
+}
+h1 {
+    align-items: right;
+}
+.nav-title {
+    margin-left: 1%;
+    color: white;
+    align-items: right;
+    text-align: right;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: flex;
+    align-items: left;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid gray;
+}
+.nav-links {
+    display: flex;
+    margin-left: 70%;
+
+}
+.btn {
+    border: 2px solid black;
+    box-shadow: 1 3px black;
+    background-color: cyan;
+    color: white;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
